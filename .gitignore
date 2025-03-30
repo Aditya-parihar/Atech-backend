@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Coverage directory used by testing tools
+coverage/
+
+# MongoDB database files (if used locally)
+dump/
+data/
+*.ns
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Build files (if you have frontend build)
+dist/
+build/
+
+# PM2 process logs (if using pm2)
+pids
+*.pid
+*.seed
+
+# Optional debug files
+*.tgz
+
+# TypeScript cache
+*.tsbuildinfo
